@@ -4,7 +4,7 @@ target_host : all
 become_root : yes
 
 # Project Repository and Branch
-project_repository    : https://github.com/fakure2020/my02aws-real-world-projects.git
+project_repository    : https://github.com/fakure2020/my02aws-real-world-projects.git  
 destination_clone_path: /home/ansibletower/ansible-tower-project
 project_repo_branch   : ansible-tower-workflow-project
 # clone_project_repo    : yes
