@@ -7,6 +7,6 @@ gather_facts: "False"
 connection  : "local"
 
 # Fetch RDS Endpoint address 
-region                : us-west-2  
+region                : us-east-1  
 db_access_config_path : "/var/www/wordpress/wp-config.php"
 db_identifier         : wordpressappdb
