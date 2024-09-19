@@ -6,8 +6,8 @@ gather_facts: "False"
 connection  : "local"
 
 # Variables for DB Subnet Group
-state                       : present
-aws_region                  : us-west-2
+state                       : absent
+aws_region                  : us-east-1
 db_subnet_group_name        : webapp-db-subnet-group
 db_subnet_group_description : "RDS instance subnet group"
 
